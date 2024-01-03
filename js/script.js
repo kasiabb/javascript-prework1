@@ -1,13 +1,11 @@
-var argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
-
-buttonTest = document.getElementById('button-test');
-buttonRock = document.getElementById('button-rock');
-buttonPaper = document.getElementById('button-paper');
-buttonScissors = document.getElementById('button-scissors');
+const buttonTest = document.getElementById('button-test');
+const buttonRock = document.getElementById('button-rock');
+const buttonPaper = document.getElementById('button-paper');
+const buttonScissors = document.getElementById('button-scissors');
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var argComputerMove,
+  let argComputerMove,
     argMoveId,
     argPlayerMove,
     computerMove,
