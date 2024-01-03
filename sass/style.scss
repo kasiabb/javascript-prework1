@@ -1,0 +1,32 @@
+header h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: 'Akronim', sans-serif;
+}
+
+body::after {
+  content: '';
+  background-image: url('https://i.postimg.cc/7LHrJKs9/pexels-karolina-grabowska-5477847.jpg');
+  background-size: contain;
+  background-position: center, center;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+header p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: 'Akronim', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
